@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    background-color: #1a1a1a;
+    height: 75px;
+    width: 100vw;
+}
+
+.logo-grid {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 20px;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Story Script", cursive;
+}
+
+.icon-grid {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon {
+    height: 40px;
+    margin-right: 20px;
+}
+
+main {
+    flex: 1;
+    height: calc(100vh - 75px);
+    width: 100vw;
+    display: flex;
+    background-image: linear-gradient(30deg, #FF005E, #FF2200, #FFA200);
+}

@@ -1,0 +1,98 @@
+.logo-grid-main {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.logo-grid-main img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 80px; 
+    height: 110px;
+    width: 650px;
+}
+
+.title-grid-main {
+    display: flex;
+    height: 50px;
+    width: 650px;
+}
+
+.title-grid-main p {
+    font-family: 'Luckiest Guy', cursive;
+    color: #fff;
+    font-size: 54px;
+    margin: 0;
+}
+
+.text-grid-main {
+    display: flex;
+    margin-top: 10px;
+    height: 50px;
+    width: 650px;
+}
+
+.text-grid-main p {
+    font-family: 'Luckiest Guy', cursive;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+body-grid-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 850px;
+}
+
+.card-grid-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 800px;
+    width: 850px;
+    margin-left: 40px;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 0 5px 2px #000;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.card img {
+    margin-top: 5px;
+    height: 195px;
+    width: 195px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card p {
+    font-family: 'Luckiest Guy', cursive;
+    color: #000;
+    font-size: 24px;
+    margin-top: 15px;
+    text-align: center;
+}
